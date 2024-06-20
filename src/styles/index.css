@@ -10,3 +10,17 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    background-color: #282A36;
+}
+
+#appTimer{
+    background-color: #44475A;
+}
+
+.timerElemento{
+    color: white;
+    border-radius: 5px;
+    background-color: #282A36;
+}
