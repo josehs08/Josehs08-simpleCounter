@@ -1,26 +1,36 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
-
 body{
     background-color: #282A36;
+    color: #F8F8F2;
 }
 
-#appTimer{
+.clockNumber{
+    background-color: #282A36;
+    color: #F8F8F2;
+    border-radius: 10px;
+
+    h1{
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+.alarm,
+.counter,
+.timer{
     background-color: #44475A;
 }
 
-.timerElemento{
-    color: white;
-    border-radius: 5px;
-    background-color: #282A36;
+.start{
+    background-color: #50FA7B;
+}
+
+.stop{
+    background-color: #FF5555;
+}
+
+button{
+    background-color: #6272A4;
+    width: 25%;
+    border: 0;
 }
